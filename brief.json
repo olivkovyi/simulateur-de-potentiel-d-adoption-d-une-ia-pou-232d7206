@@ -1,0 +1,300 @@
+{
+  "run_id": "run-1777425040962",
+  "job_index": 5,
+  "params": {
+    "owner_user_id": "user-1774822953462",
+    "owner_username": "admin",
+    "owner_display_name": "Administrator",
+    "count": 5,
+    "archetype": "calculator",
+    "market": "France",
+    "language": "fr",
+    "country": "FR",
+    "brief": "Aide les dirigeants de PME à comprendre comment l'IA peut améliorer leur productivité et leur compétitivité.",
+    "notes": "Évalue le potentiel d'intégration et les bénéfices attendus d'une solution d'intelligence artificielle pour une petite ou moyenne entreprise française.\nAnalyse le secteur d'activité, les processus métier existants et les objectifs de croissance pour identifier les cas d'usage pertinents de l'IA.",
+    "import_notes": "",
+    "growth_job_id": "",
+    "growth_slug": "",
+    "growth_kind": "",
+    "dashboard_mode": "builder",
+    "network_site_format": "forum",
+    "network_primary_topic": "",
+    "network_primary_geo": "",
+    "network_domain_pool": "forum-de-jeu.shop",
+    "network_hosting_pool": "4vps:netoper | server_id=447345 | ip=5.253.59.18 | ssh_user=root | ssh_port=22",
+    "network_dns_strategy": "auto_pool_assign",
+    "network_domain_flow": "manual",
+    "network_content_strategy": "",
+    "network_model_concept": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_seo": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_build": "google/gemini-2.5-flash",
+    "network_model_qa": "anthropic/claude-haiku-4.5",
+    "network_model_growth": "google/gemini-2.5-flash-lite:nitro",
+    "network_blueprint_id": "",
+    "mode": "production",
+    "run_kind": "generated_batch",
+    "publish_target": "render",
+    "requested_publish_target": "render",
+    "railway_project_id_override": "",
+    "railway_environment_id_override": "",
+    "railway_service_id_override": "",
+    "railway_service_name_override": "",
+    "github_repo_private": true,
+    "stage_models": {
+      "ideation": "google/gemini-2.5-flash-lite:nitro",
+      "spec": "google/gemini-2.5-flash",
+      "copy": "google/gemini-2.5-flash-lite:nitro",
+      "qa": "anthropic/claude-haiku-4.5",
+      "escalation": "anthropic/claude-sonnet-4.6"
+    },
+    "archetype_display": "mixed batch",
+    "archetype_mix": [
+      "tool",
+      "calculator",
+      "generator"
+    ],
+    "forced_design_theme": "liquid-glass",
+    "forced_structure_preset": "story-commerce",
+    "site_idea_title": "Simulateur de Potentiel d'Adoption d'une IA pour PME Françaises",
+    "site_idea_summary": "Évalue le potentiel d'intégration et les bénéfices attendus d'une solution d'intelligence artificielle pour une petite ou moyenne entreprise française."
+  },
+  "site_spec": {
+    "slug": "simulateur-de-potentiel-d-adoption-d-une-ia-pou-232d7206",
+    "theme": {
+      "name": "Liquid Glass",
+      "slug": "liquid-glass",
+      "eyebrow": "Fluid Interface",
+      "family": "liquid-glass",
+      "moods": [
+        "luminous",
+        "fluid",
+        "premium",
+        "adaptive"
+      ],
+      "archetypes": [
+        "tool",
+        "calculator",
+        "generator"
+      ],
+      "niches": [
+        "ai utility",
+        "dashboards",
+        "premium saas",
+        "workflow tools",
+        "consumer utility"
+      ],
+      "keywords": [
+        "glass",
+        "fluid",
+        "adaptive",
+        "clarity",
+        "layered"
+      ],
+      "token_index": [
+        "adaptive",
+        "calculator",
+        "clarity",
+        "consumer",
+        "dashboards",
+        "fluid",
+        "generator",
+        "glass",
+        "interface",
+        "layered",
+        "liquid",
+        "luminous",
+        "premium",
+        "saas",
+        "tool",
+        "tools",
+        "utility",
+        "workflow"
+      ],
+      "font_embed": "https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "display_font": "\"Sora\", sans-serif",
+      "body_font": "\"Inter\", sans-serif",
+      "layout": "showcase",
+      "card_style": "glass",
+      "button_style": "gradient",
+      "decor_style": "orbs",
+      "hero_template": "0.94fr 1.06fr",
+      "seo_template": "1.18fr 0.82fr",
+      "feature_columns": 2,
+      "faq_columns": 3,
+      "hero_min_height": "78vh",
+      "panel_radius": "34px",
+      "card_radius": "26px",
+      "chip_radius": "999px",
+      "button_radius": "18px",
+      "outline_width": "1px",
+      "backdrop_blur": "16px",
+      "palette": {
+        "bg": "radial-gradient(circle at 18% 12%, #8be9ff 0%, rgba(139,233,255,0.16) 18%, transparent 36%), linear-gradient(145deg, #07111f 0%, #112a48 46%, #08101c 100%)",
+        "surface": "rgba(12, 24, 42, 0.58)",
+        "surface_border": "rgba(255,255,255,0.16)",
+        "text": "#eef8ff",
+        "muted": "#bdd8f2",
+        "accent": "#9ae6ff",
+        "accent_alt": "#a78bfa",
+        "hero_glow": "rgba(154,230,255,0.24)",
+        "button_text": "#08111b",
+        "panel_alt": "rgba(255,255,255,0.08)",
+        "shadow": "0 28px 100px rgba(3, 10, 18, 0.36)",
+        "input_fill": "rgba(255,255,255,0.08)"
+      }
+    },
+    "structure": {
+      "name": "Story Commerce",
+      "slug": "story-commerce",
+      "hero_variant": "poster",
+      "proof_variant": "steps",
+      "section_order": [
+        "features",
+        "proof",
+        "seo",
+        "faq"
+      ],
+      "feature_columns": 2,
+      "faq_columns": 2,
+      "family": "story-commerce",
+      "moods": [
+        "bold",
+        "editorial",
+        "conversion"
+      ],
+      "archetypes": [
+        "generator",
+        "tool",
+        "calculator"
+      ],
+      "niches": [
+        "creator",
+        "consumer",
+        "travel",
+        "marketing"
+      ],
+      "keywords": [
+        "story",
+        "banner",
+        "campaign",
+        "conversion"
+      ],
+      "token_index": [
+        "banner",
+        "bold",
+        "calculator",
+        "campaign",
+        "commerce",
+        "consumer",
+        "conversion",
+        "creator",
+        "editorial",
+        "faq",
+        "features",
+        "generator",
+        "marketing",
+        "poster",
+        "proof",
+        "seo",
+        "steps",
+        "story",
+        "tool",
+        "travel"
+      ]
+    },
+    "render_direction": "studio-split",
+    "render_direction_name": "Studio Split",
+    "page_blueprint": "campaign-mosaic",
+    "page_blueprint_name": "Campaign Mosaic",
+    "title": "Simulateur de Potentiel d'Adoption d'une IA pour PME Françaises",
+    "tagline": "Pourquoi l'IA est le levier de croissance pour votre PME ?",
+    "description": "Évaluez le potentiel d",
+    "feature_prefix": "Bloc",
+    "action": "Utiliser l'outil",
+    "cta_primary": "Analyser mon Potentiel IA",
+    "cta_secondary": "Consulter la FAQ",
+    "inputs": [
+      {
+        "id": "amount",
+        "label": "Montant de base",
+        "type": "number",
+        "placeholder": "7500",
+        "weight": 1.0
+      },
+      {
+        "id": "duration",
+        "label": "Durée estimée",
+        "type": "number",
+        "placeholder": "12",
+        "weight": 0.42
+      },
+      {
+        "id": "plan",
+        "label": "Niveau de service",
+        "type": "select",
+        "options": [
+          {
+            "label": "Essentiel",
+            "value": 1.0
+          },
+          {
+            "label": "Performance",
+            "value": 1.18
+          },
+          {
+            "label": "Premium",
+            "value": 1.34
+          }
+        ],
+        "weight": 1.0
+      }
+    ],
+    "hero_metrics": [
+      {
+        "value": "Studio Split",
+        "label": "Cadence"
+      },
+      {
+        "value": "3",
+        "label": "Entrées"
+      },
+      {
+        "value": "Résultat recommandé",
+        "label": "Sortie"
+      }
+    ],
+    "trust_labels": [
+      "Studio Split",
+      "Analyser mon Potentiel IA",
+      "Résultat recommandé",
+      "Utilitaire immédiat",
+      "Structure SEO claire"
+    ],
+    "result_label": "Résultat recommandé",
+    "result_unit": "EUR",
+    "runtime_mode": "generic_calculator",
+    "page_variant": "classic",
+    "faq_topic": "Simulateur de Potentiel d'Adoption d'une IA pour PME Françaises",
+    "faq_entries": [
+      {
+        "question": "Pourquoi utiliser cet outil pour Simulateur de Potentiel d'Adoption d'une IA pour PME Françaises ?",
+        "answer": "Il aide à cadrer le besoin rapidement et à orienter vers une prochaine action claire sur le marché France."
+      },
+      {
+        "question": "Le résultat est-il immédiat ?",
+        "answer": "Oui. L'interface est pensée pour une réponse rapide, lisible et exploitable dès la première interaction."
+      },
+      {
+        "question": "Cette page est-elle adaptée au SEO ?",
+        "answer": "Oui. La structure mélange utilité, clarté éditoriale et signaux de confiance sans surcharger l'expérience."
+      }
+    ],
+    "seo_paragraphs": [
+      "Cette page capte une intention forte autour de Simulateur de Potentiel d'Adoption d'une IA pour PME Françaises et la transforme en action utile pour un public situé sur France.",
+      "Le format hero-first accélère la compréhension, réduit les frictions et améliore la lisibilité sur mobile comme sur desktop.",
+      "Le socle reste volontairement simple pour faciliter les tests, la QA continue et les variations SEO."
+    ],
+    "document_html": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Simulateur de Potentiel d&#x27;Adoption d&#x27;une IA pour PME Françaises | Pourquoi l&#x27;IA est le levier de croissance pour votre PME ?</title>\n    <meta name=\"description\" content=\"Évaluez le potentiel d\">\n    <style>\n        :root {\n            --color-primary: #5A67D8;\n            --color-secondary: #8B5CF6;\n            --color-background-light: #F9FAFB;\n            --color-background-dark: #1F2937;\n            --color-text-dark: #1F2937;\n            --color-text-light: #F9FAFB;\n            --color-card-background: #FFFFFF;\n            --gradient-fluid: linear-gradient(135deg, #E0E7FF 0%, #D1D5DB 100%);\n            --gradient-luminous: radial-gradient(circle at top left, #BFDBFE 0%, transparent 50%), radial-gradient(circle at bottom right, #C7D2FE 0%, transparent 50%);\n            --shadow-soft: 0 4px 10px rgba(0, 0, 0, 0.05);\n            --shadow-premium: 0 10px 30px rgba(0, 0, 0, 0.1);\n        }\n\n        body {\n            font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\";\n            margin: 0;\n            padding: 0;\n            background: var(--color-background-light);\n            color: var(--color-text-dark);\n            line-height: 1.6;\n            display: flex;\n            flex-direction: column;\n            min-height: 100vh;\n        }\n\n        header {\n            background: var(--gradient-fluid);\n            padding: 2rem 1rem;\n            text-align: center;\n            border-bottom-left-radius: 20px;\n            border-bottom-right-radius: 20px;\n            box-shadow: var(--shadow-soft);\n        }\n\n        header h1 {\n            font-size: 2.8rem;\n            color: var(--color-primary);\n            margin-bottom: 0.5rem;\n            font-weight: 700;\n        }\n\n        header p {\n            font-size: 1.2rem;\n            color: var(--color-text-dark);\n            max-width: 800px;\n            margin: 0 auto;\n        }\n\n        .container {\n            max-width: 1200px;\n            margin: 2rem auto;\n            padding: 0 1rem;\n            display: grid;\n            grid-template-columns: 2fr 1fr;\n            gap: 2rem;\n            flex-grow: 1;\n        }\n\n        @media (max-width: 900px) {\n            .container {\n                grid-template-columns: 1fr;\n            }\n        }\n\n        .content-area {\n            background-color: var(--color-card-background);\n            padding: 2rem;\n            border-radius: 12px;\n            box-shadow: var(--shadow-premium);\n            position: relative;\n            overflow: hidden;\n        }\n\n        .content-area::before {\n            content: '';\n            position: absolute;\n            top: -50px;\n            left: -50px;\n            right: -50px;\n            bottom: -50px;\n            background: var(--gradient-luminous);\n            opacity: 0.1;\n            z-index: 0;\n            border-radius: inherit;\n        }\n\n        .content-area > * {\n            position: relative;\n            z-index: 1;\n        }\n\n        .tool-rail {\n            background-color: var(--color-card-background);\n            padding: 2rem;\n            border-radius: 12px;\n            box-shadow: var(--shadow-soft);\n            display: flex;\n            flex-direction: column;\n        }\n\n        h2 {\n            color: var(--color-primary);\n            font-size: 2rem;\n            margin-bottom: 1.5rem;\n            font-weight: 600;\n        }\n\n        h3 {\n            color: var(--color-secondary);\n            font-size: 1.5rem;\n            margin-top: 2rem;\n            margin-bottom: 1rem;\n        }\n\n        label {\n            display: block;\n            margin-bottom: 0.5rem;\n            font-weight: 600;\n            color: var(--color-text-dark);\n            font-size: 0.9rem;\n            text-transform: uppercase;\n            letter-spacing: 0.05em;\n        }\n\n        input[type=\"text\"],\n        input[type=\"number\"],\n        select,\n        textarea {\n            width: calc(100% - 20px);\n            padding: 10px;\n            margin-bottom: 1rem;\n            border: 1px solid #D1D5DB;\n            border-radius: 6px;\n            font-size: 1rem;\n            box-sizing: border-box;\n            transition: border-color 0.3s ease;\n        }\n\n        input[type=\"text\"]:focus,\n        input[type=\"number\"]:focus,\n        select:focus,\n        textarea:focus {\n            outline: none;\n            border-color: var(--color-primary);\n            box-shadow: 0 0 0 3px rgba(90, 103, 216, 0.2);\n        }\n\n        textarea {\n            min-height: 80px;\n            resize: vertical;\n        }\n\n        button {\n            background-color: var(--color-primary);\n            color: var(--color-text-light);\n            padding: 12px 25px;\n            border: none;\n            border-radius: 8px;\n            font-size: 1.1rem;\n            cursor: pointer;\n            transition: background-color 0.3s ease, transform 0.2s ease;\n            box-shadow: var(--shadow-soft);\n            width: 100%;\n            font-weight: 600;\n        }\n\n        button:hover {\n            background-color: var(--color-secondary);\n            transform: translateY(-2px);\n        }\n\n        #tool-result {\n            margin-top: 2rem;\n            padding: 1.5rem;\n            background-color: #F0F4F8;\n            border-radius: 8px;\n            border: 1px solid #D1D5DB;\n            font-size: 1.1rem;\n            color: var(--color-text-dark);\n            min-height: 100px;\n            white-space: pre-wrap;\n        }\n\n        .cta-section {\n            text-align: center;\n            padding: 3rem 1rem;\n            background: var(--color-primary);\n            color: var(--color-text-light);\n            margin-top: 3rem;\n        }\n\n        .cta-section h2 {\n            color: var(--color-text-light);\n            font-size: 2.5rem;\n            margin-bottom: 1rem;\n        }\n\n        .cta-section p {\n            font-size: 1.2rem;\n            max-width: 700px;\n            margin: 0 auto 2rem auto;\n            opacity: 0.9;\n        }\n\n        .cta-button-group button {\n            background-color: var(--color-text-light);\n            color: var(--color-primary);\n            margin: 0 1rem;\n            width: auto;\n            min-width: 200px;\n        }\n\n        .cta-button-group button:hover {\n            background-color: #E0E7FF;\n            color: var(--color-secondary);\n        }\n\n        .seo-section {\n            background-color: var(--color-background-dark);\n            color: var(--color-text-light);\n            padding: 2rem 1rem;\n            text-align: center;\n            font-size: 0.9rem;\n        }\n\n        .seo-section h3 {\n            color: var(--color-secondary);\n            margin-bottom: 1rem;\n            font-size: 1.3rem;\n        }\n\n        .seo-section p {\n            max-width: 900px;\n            margin: 0.5rem auto;\n            line-height: 1.8;\n            opacity: 0.8;\n        }\n    </style>\n    <meta name=\"robots\" content=\"index, follow\">\n    <link rel=\"canonical\" href=\"https://simulateur-de-potentiel-d-adoption-d-une-ia-pou-232d7206.onrender.com\">\n    <meta property=\"og:title\" content=\"Simulateur de Potentiel d&#x27;Adoption d&#x27;une IA pour PME Françaises\">\n    <meta property=\"og:description\" content=\"Évaluez le potentiel d\">\n    <meta property=\"og:url\" content=\"https://simulateur-de-potentiel-d-adoption-d-une-ia-pou-232d7206.onrender.com\">\n    <meta property=\"og:type\" content=\"website\">\n    <script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebApplication\", \"name\": \"Simulateur de Potentiel d'Adoption d'une IA pour PME Françaises\", \"description\": \"Évaluez le potentiel d\", \"url\": \"https://simulateur-de-potentiel-d-adoption-d-une-ia-pou-232d7206.onrender.com\", \"applicationCategory\": \"UtilityApplication\", \"operatingSystem\": \"Web Browser\"}</script>\n</head>\n<body data-site-slug=\"simulateur-de-potentiel-d-adoption-d-une-ia-pou-232d7206\" data-runtime-mode=\"generic_calculator\">\n    <header>\n        <h1>Simulateur de Potentiel d'Adoption d'une IA pour PME Françaises</h1>\n        <p>Évaluez rapidement et gratuitement l'impact transformateur de l'Intelligence Artificielle sur votre petite ou moyenne entreprise en France. Découvrez les opportunités d'optimisation et de croissance.</p>\n    </header>\n\n    <main class=\"container\">\n        <section class=\"content-area\">\n            <h2>Pourquoi l'IA est le levier de croissance pour votre PME ?</h2>\n            <p>Dans un marché en constante évolution, l'agilité et l'innovation sont cruciales pour les PME. L'Intelligence Artificielle n'est plus l'apanage des grandes entreprises ; elle offre des solutions concrètes pour optimiser les processus, réduire les coûts, améliorer l'expérience client et découvrir de nouvelles sources de revenus. Notre simulateur est conçu pour vous aider à déchiffrer ces opportunités, spécifiques à votre secteur d'activité et à vos objectifs.</p>\n\n            <h3>Des bénéfices tangibles et mesurables</h3>\n            <p>L'intégration de l'IA dans votre PME peut se traduire par :</p>\n            <ul>\n                <li>Une augmentation de la productivité des équipes jusqu'à 30%.</li>\n                <li>Une réduction significative des erreurs opérationnelles.</li>\n                <li>Une meilleure compréhension des besoins de vos clients, menant à des offres plus pertinentes.</li>\n                <li>L'automatisation des tâches répétitives, libérant vos collaborateurs pour des missions à plus forte valeur ajoutée.</li>\n                <li>Une prise de décision éclairée grâce à l'analyse prédictive.</li>\n            </ul>\n            <p>Que vous soyez dans l'industrie, les services, le commerce ou l'artisanat, l'IA dispose d'un potentiel immense pour dynamiser votre activité. Mais par où commencer ? C'est là que notre simulateur intervient.</p>\n        </section>\n\n        <section class=\"tool-rail\">\n            <h2>Votre Bilan IA Personnalisé</h2>\n            <form id=\"tool-form\">\n                <label for=\"secteur\">Secteur d'activité principal de votre PME :</label>\n                <select id=\"secteur\" name=\"secteur\" required>\n                    <option value=\"\">Sélectionnez votre secteur</option>\n                    <option value=\"industrie\">Industrie & Fabrication</option>\n                    <option value=\"commerce\">Commerce de Détail & E-commerce</option>\n                    <option value=\"services\">Services aux entreprises (Conseil, Marketing, IT)</option>\n                    <option value=\"sante\">Santé & Bien-être</option>\n                    <option value=\"batiment\">Bâtiment & Construction</option>\n                    <option value=\"agroalimentaire\">Agroalimentaire</option>\n                    <option value=\"transport\">Transport & Logistique</option>\n                    <option value=\"tourisme\">Tourisme & Hôtellerie</option>\n                    <option value=\"autre\">Autre</option>\n                </select>\n\n                <label for=\"employes\">Nombre d'employés dans votre PME :</label>\n                <input type=\"number\" id=\"employes\" name=\"employes\" min=\"1\" max=\"250\" value=\"10\" required>\n\n                <label for=\"processus\">Décrivez brièvement un ou deux processus métier que vous souhaitez optimiser (ex: gestion des stocks, service client, prospection) :</label>\n                <textarea id=\"processus\" name=\"processus\" placeholder=\"Ex: Gérer les demandes clients, optimiser la planification de production...\" required></textarea>\n\n                <label for=\"objectif\">Quel est votre objectif principal avec l'IA ?</label>\n                <select id=\"objectif\" name=\"objectif\" required>\n                    <option value=\"\">Choisissez un objectif</option>\n                    <option value=\"productivite\">Augmenter la productivité</option>\n                    <option value=\"couts\">Réduire les coûts opérationnels</option>\n                    <option value=\"client\">Améliorer l'expérience client</option>\n                    <option value=\"ventes\">Booster les ventes et la croissance</option>\n                    <option value=\"innovation\">Innover et créer de nouveaux produits/services</option>\n                </select>\n\n                <button type=\"submit\" id=\"tool-submit\">Analyser mon Potentiel IA</button>\n            </form>\n\n            <h3>Votre Résultat Personnalisé :</h3>\n            <div id=\"tool-result\">\n                Votre analyse apparaîtra ici. Veuillez remplir le formulaire.\n            </div>\n        </section>\n    </main>\n\n    <section class=\"cta-section\">\n        <h2>Prêt à Transformer Votre PME avec l'IA ?</h2>\n        <p>Ne laissez pas vos concurrents prendre de l'avance. L'IA est à portée de main, et ses avantages sont immenses. Notre simulateur vous donne les premières pistes, mais une stratégie personnalisée peut aller plus loin.</p>\n        <div class=\"cta-button-group\">\n            <button data-affiliate-slot=\"contact-expert\">Contacter un Expert IA</button>\n            <button data-affiliate-slot=\"ressources-gratuites\">Découvrir nos Ressources Gratuites</button>\n        </div>\n    </section>\n\n    <footer class=\"seo-section\">\n        <h3>Optimisez votre PME avec l'Intelligence Artificielle en France</h3>\n        <p>Découvrez comment l'intégration de l'IA peut révolutionner votre petite ou moyenne entreprise française. Notre simulateur offre une analyse personnalisée du potentiel de l'IA pour votre PME, qu'il s'agisse d'optimiser la gestion des stocks, d'améliorer la relation client ou d'automatiser des tâches administratives. Spécialement conçu pour le marché français, cet outil vous aide à identifier les cas d'usage pertinents et les bénéfices attendus de l'IA dans des secteurs comme l'industrie, le commerce, les services ou le BTP. Obtenez une estimation de votre retour sur investissement et comprenez comment l'intelligence artificielle peut devenir un avantage concurrentiel décisif pour votre croissance et votre rentabilité en France.</p>\n        <p>© 2023 Simulateur IA PME France. Tous droits réservés.</p>\n    </footer>\n\n    <script>\n        document.getElementById('tool-form').addEventListener('submit', function(event) {\n            event.preventDefault();\n\n            const secteur = document.getElementById('secteur').value;\n            const employes = parseInt(document.getElementById('employes').value);\n            const processus = document.getElementById('processus').value;\n            const objectif = document.getElementById('objectif').value;\n            const resultDiv = document.getElementById('tool-result');\n\n            let potentiel = 0;\n            let benefices = [];\n            let recommandations = [];\n\n            if (secteur && employes && processus && objectif) {\n                // Logique de calcul du potentiel\n                if (employes <= 10) potentiel += 10;\n                else if (employes <= 50) potentiel += 20;\n                else potentiel += 30;\n\n                switch (secteur) {\n                    case 'industrie':\n                        potentiel += 25;\n                        benefices.push(\"Optimisation de la chaîne de production et maintenance prédictive.\");\n                        recommandations.push(\"Explorez les solutions d'IA pour la planification manufacturière et le contrôle qualité.\");\n                        break;\n                    case 'commerce':\n                        potentiel += 20;\n                        benefices.push(\"Personnalisation de l'expérience client et gestion intelligente des stocks.\");\n                        recommandations.push(\"Envisagez des chatbots pour le service client et l'analyse des tendances d'achat.\");\n                        break;\n                    case 'services':\n                        potentiel += 15;\n                        benefices.push(\"Automatisation des tâches administratives et optimisation des campagnes marketing.\");\n                        recommandations.push(\"Utilisez l'IA pour la génération de leads et l'analyse de données clients.\");\n                        break;\n                    case 'sante':\n                        potentiel += 30;\n                        benefices.push(\"Analyse de données médicales, aide au diagnostic et gestion des rendez-vous.\");\n                        recommandations.push(\"Considérez l'IA pour la recherche clinique et l'optimisation des parcours patients.\");\n                        break;\n                    case 'batiment':\n                        potentiel += 20;\n                        benefices.push(\"Planification de projets, sécurité sur chantier et optimisation des coûts.\");\n                        recommandations.push(\"L'IA peut aider à la conception assistée et à la surveillance de la progression des chantiers.\");\n                        break;\n                    case 'agroalimentaire':\n                        potentiel += 25;\n                        benefices.push(\"Optimisation des rendements, traçabilité et contrôle qualité.\");\n                        recommandations.push(\"La vision par ordinateur peut améliorer la détection des défauts et l'optimisation des cultures.\");\n                        break;\n                    case 'transport':\n                        potentiel += 25;\n                        benefices.push(\"Optimisation des itinéraires, gestion de flotte et prédiction des pannes.\");\n                        recommandations.push(\"L'IA pour la logistique du dernier kilomètre et la maintenance prédictive des véhicules.\");\n                        break;\n                    case 'tourisme':\n                        potentiel += 20;\n                        benefices.push(\"Personnalisation des offres, gestion des réservations et support client 24/7.\");\n                        recommandations.push(\"Mettez en place des concierges virtuels et des systèmes de recommandation.\");\n                        break;\n                    case 'autre':\n                        potentiel += 10;\n                        benefices.push(\"Identification d'opportunités d'automatisation et d'analyse de données spécifiques.\");\n                        recommandations.push(\"Une étude de faisabilité approfondie est recommandée pour les cas d'usage non-standards.\");\n                        break;\n                }\n\n                switch (objectif) {\n                    case 'productivite':\n                        potentiel += 25;\n                        benefices.push(\"Automatisation des tâches répétitives et optimisation des flux de travail.\");\n                        break;\n                    case 'couts':\n                        potentiel += 20;\n                        benefices.push(\"Réduction des erreurs, prédiction des pannes et meilleure gestion des ressources.\");\n                        break;\n                    case 'client':\n                        potentiel += 30;\n                        benefices.push(\"Amélioration de la satisfaction client, personnalisation des interactions et support continu.\");\n                        break;\n                    case 'ventes':\n                        potentiel += 25;\n                        benefices.push(\"Identification de nouvelles opportunités de marché, prédiction des ventes et marketing ciblé.\");\n                        break;\n                    case 'innovation':\n                        potentiel += 20;\n                        benefices.push(\"Aide à la recherche et développement, création de nouveaux services ou produits.\");\n                        break;\n                }\n\n                if (processus.length > 50) potentiel += 10; // Plus la description est détaillée, plus le potentiel est élevé\n\n                let potentielDescription;\n                if (potentiel < 50) {\n                    potentielDescription = \"Modéré. Votre PME a un bon point de départ, mais une exploration plus approfondie des cas d'usage spécifiques sera bénéfique.\";\n                } else if (potentiel < 80) {\n                    potentielDescription = \"Élevé. L'IA pourrait apporter des transformations significatives à votre PME, avec des retours sur investissement prometteurs.\";\n                } else {\n                    potentielDescription = \"Très Élevé. Votre PME est idéalement positionnée pour tirer parti des avantages de l'IA, avec un potentiel de croissance et d'optimisation majeur.\";\n                }\n\n                let resultHTML = `\n                    <p><strong>Potentiel d'Intégration d'IA pour votre PME :</strong> <span style=\"color: ${potentiel < 50 ? '#EF4444' : (potentiel < 80 ? '#F59E0B' : '#10B981')}; font-weight: bold;\">${potentiel}% - ${potentielDescription}</span></p>\n                    <p><strong>Bénéfices Attendus pour vos processus (${processus}) :</strong></p>\n                    <ul>\n                        ${benefices.map(b => `<li>${b}</li>`).join('')}\n                    </ul>\n                    <p><strong>Recommandations Spécifiques :</strong></p>\n                    <ul>\n                        ${recommandations.map(r => `<li>${r}</li>`).join('')}\n                        <li>Envisagez de réaliser un audit de vos données existantes pour identifier les sources exploitables par l'IA.</li>\n                        <li>Commencez par un projet pilote ciblé pour mesurer l'impact avant un déploiement plus large.</li>\n                    </ul>\n                    <p>L'IA peut vous aider à atteindre votre objectif d'<strong>${objectif === 'productivite' ? 'augmentation de la productivité' : (objectif === 'couts' ? 'réduction des coûts opérationnels' : (objectif === 'client' ? \"amélioration de l'expérience client\" : (objectif === 'ventes' ? 'boost des ventes et de la croissance' : 'innovation et création de nouveaux produits/services')))}</strong> en ${processus}.</p>\n                    <p>Pour une analyse plus détaillée et un plan d'action concret, n'hésitez pas à nous contacter.</p>\n                `;\n                resultDiv.innerHTML = resultHTML;\n            } else {\n                resultDiv.innerHTML = \"Veuillez remplir tous les champs du formulaire pour obtenir une analyse complète.\";\n            }\n        });\n    </script>\n<div id=\"qa-smoke-result\" hidden></div>\n<script id=\"farmbuilder-affiliate-helper\">\n(function () {\n  window.__UTILITY_AFFILIATE_MAP = window.__UTILITY_AFFILIATE_MAP || {};\n  document.addEventListener(\"click\", function (event) {\n    const target = event.target.closest(\"[data-affiliate-slot]\");\n    if (!target) return;\n    const slot = target.getAttribute(\"data-affiliate-slot\");\n    const href = window.__UTILITY_AFFILIATE_MAP[slot];\n    if (!href) return;\n    if (target.tagName && target.tagName.toLowerCase() === \"a\") {\n      target.setAttribute(\"href\", href);\n      target.setAttribute(\"rel\", \"nofollow sponsored noopener noreferrer\");\n      return;\n    }\n    event.preventDefault();\n    window.open(href, \"_blank\", \"noopener\");\n  }, true);\n})();\n</script>\n<script id=\"farmbuilder-functional-qa\">\n(function () {\n  function marker() {\n    let node = document.getElementById(\"qa-smoke-result\");\n    if (node) return node;\n    node = document.createElement(\"div\");\n    node.id = \"qa-smoke-result\";\n    node.hidden = true;\n    document.body.appendChild(node);\n    return node;\n  }\n\n  let qaFinished = false;\n  let qaWatchdog = null;\n\n  function normalize(text) {\n    return String(text || \"\").replace(/\\s+/g, \" \").trim();\n  }\n\n  function findForm() {\n    return document.getElementById(\"tool-form\") || document.querySelector(\"form\");\n  }\n\n  function findResult() {\n    return (\n      document.getElementById(\"tool-result\") ||\n      document.querySelector(\"[data-result]\") ||\n      document.querySelector(\".tool-result, .result-card, .result, .results, .output, .preview, .diagnostic, .analysis\")\n    );\n  }\n\n  function primaryAction(form) {\n    if (!form) return null;\n    return (\n      document.getElementById(\"tool-submit\") ||\n      form.querySelector(\"#tool-submit\") ||\n      form.querySelector(\"[data-primary-action]\") ||\n      form.querySelector(\"button[type=submit]\") ||\n      form.querySelector(\"button\") ||\n      form.querySelector(\"input[type=submit]\")\n    );\n  }\n\n  function resultSignature(node) {\n    if (!node) return \"\";\n    const text = normalize(node.textContent);\n    const html = normalize(node.innerHTML).slice(0, 600);\n    return `${text}||${html}`;\n  }\n\n  function resultHeadline(node) {\n    if (!node) return \"\";\n    const heading = node.querySelector(\"h1, h2, h3, strong, b\");\n    return normalize(heading ? heading.textContent : \"\");\n  }\n\n  function sampleText(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"} ${field.placeholder || \"\"}`.toLowerCase();\n    if (/email/.test(key)) return \"bonjour@example.com\";\n    if (/url|site|website|lien/.test(key)) return \"https://example.com/offre-solaire\";\n    if (/phone|tel|mobile/.test(key)) return \"0612345678\";\n    if (/ville|city|localisation|location|region|departement|postal/.test(key)) return \"Paris\";\n    if (/orientation/.test(key)) return \"sud\";\n    if (/keyword|theme|topic|sujet|subject/.test(key)) return \"energie solaire domestique\";\n    if (/titre|title/.test(key)) return \"Simulateur solaire maison\";\n    if (/nom|name|project/.test(key)) return \"Projet Horizon\";\n    if (/description|notes|content|message/.test(key)) return \"Maison individuelle exposee sud avec toiture exploitable.\";\n    return field.placeholder || \"France\";\n  }\n\n  function sampleNumber(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"}`.toLowerCase();\n    if (/inclinaison|angle|slope/.test(key)) return \"30\";\n    if (/surface|size|m2|sqm/.test(key)) return \"28\";\n    if (/annee|year/.test(key)) return \"2024\";\n    if (/prix|price|budget|cost|amount|montant/.test(key)) return \"12000\";\n    const min = Number(field.min || \"\");\n    const max = Number(field.max || \"\");\n    if (Number.isFinite(min) && Number.isFinite(max) && max >= min) {\n      return String(Math.min(max, Math.max(min, min + Math.round((max - min) * 0.35))));\n    }\n    if (Number.isFinite(min)) return String(Math.max(min, 12));\n    if (Number.isFinite(max)) return String(Math.min(max, 12));\n    return field.value || \"12\";\n  }\n\n  function applySample(field) {\n    const tag = (field.tagName || \"\").toLowerCase();\n    const type = (field.type || \"\").toLowerCase();\n    if (field.disabled) return;\n    if (type === \"hidden\" || type === \"submit\" || type === \"button\" || type === \"reset\" || type === \"image\" || type === \"file\") {\n      return;\n    }\n    const currentValue = normalize(field.value);\n    if (tag === \"select\") {\n      if (currentValue) return;\n      const option = Array.from(field.options || []).find((item) => item.value && !item.disabled) || field.options[0];\n      if (option) field.value = option.value;\n      return;\n    }\n    if (type === \"checkbox\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"radio\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"date\") {\n      if (currentValue) return;\n      field.value = \"2026-03-01\";\n      return;\n    }\n    if (type === \"email\") {\n      if (currentValue) return;\n      field.value = \"bonjour@example.com\";\n      return;\n    }\n    if (type === \"url\") {\n      if (currentValue) return;\n      field.value = \"https://example.com/offre-solaire\";\n      return;\n    }\n    if (type === \"tel\") {\n      if (currentValue) return;\n      field.value = \"0612345678\";\n      return;\n    }\n    if (type === \"color\") {\n      if (currentValue) return;\n      field.value = \"#2f855a\";\n      return;\n    }\n    if (type === \"number\" || type === \"range\") {\n      if (currentValue) return;\n      field.value = sampleNumber(field);\n      return;\n    }\n    if (currentValue) return;\n    field.value = sampleText(field);\n  }\n\n  function stamp(status, detail, headline, primary) {\n    if (qaFinished) return;\n    qaFinished = true;\n    if (qaWatchdog) {\n      window.clearTimeout(qaWatchdog);\n      qaWatchdog = null;\n    }\n    const node = marker();\n    node.dataset.status = status;\n    node.dataset.mode = \"native-form\";\n    node.dataset.detail = detail || \"\";\n    node.dataset.headline = headline || \"\";\n    node.dataset.primary = primary || \"\";\n    node.dataset.viewport = window.innerWidth <= 640 ? \"mobile\" : \"desktop\";\n    window.setTimeout(function () {\n      try {\n        window.stop();\n      } catch (_error) {}\n    }, 0);\n  }\n\n  function installModalGuards() {\n    const noop = function () {};\n    const approve = function () { return true; };\n    const empty = function () { return \"\"; };\n    try { window.alert = noop; } catch (_error) {}\n    try { window.confirm = approve; } catch (_error) {}\n    try { window.prompt = empty; } catch (_error) {}\n  }\n\n  function triggerAction(form, action) {\n    try {\n      if (typeof form.requestSubmit === \"function\") {\n        form.requestSubmit(action || undefined);\n        return;\n      }\n    } catch (_error) {}\n    if (action && typeof action.click === \"function\") {\n      action.click();\n      return;\n    }\n    form.dispatchEvent(new Event(\"submit\", { bubbles: true, cancelable: true }));\n  }\n\n  function inspectResult(before, attemptsLeft) {\n    const result = findResult();\n    if (!result) {\n      stamp(\"fail\", \"La zone de resultat est introuvable.\", \"\");\n      return;\n    }\n    const after = resultSignature(result);\n    const text = normalize(result.textContent);\n    if (after && after !== before && text.length >= 24) {\n      const primary = result.querySelector(\"a[href], button[data-href], [data-primary-url]\") || document.querySelector(\"#tool-result a[href]\");\n      stamp(\"pass\", \"Le formulaire natif a mis a jour la zone de resultat.\", resultHeadline(result), primary ? (primary.getAttribute(\"href\") || primary.getAttribute(\"data-primary-url\") || \"\") : \"\");\n      return;\n    }\n    if (attemptsLeft > 0) {\n      window.setTimeout(function () {\n        inspectResult(before, attemptsLeft - 1);\n      }, 250);\n      return;\n    }\n    stamp(\"fail\", \"La zone de resultat n'a pas renvoye de contenu exploitable.\", resultHeadline(result));\n  }\n\n  function runSmoke() {\n    const params = new URLSearchParams(window.location.search);\n    if (params.get(\"__qa\") !== \"functional\") return;\n    qaWatchdog = window.setTimeout(function () {\n      stamp(\"fail\", \"QA smoke timed out before the page reported a usable result.\", \"\");\n    }, 7000);\n    const form = findForm();\n    if (!form) {\n      stamp(\"fail\", \"Le formulaire principal est introuvable.\", \"\");\n      return;\n    }\n    const result = findResult();\n    const before = resultSignature(result);\n    installModalGuards();\n    try {\n      form.querySelectorAll(\"input, select, textarea\").forEach(applySample);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke sample failed: ${error.message}` : \"QA smoke sample failed before submit.\", \"\");\n      return;\n    }\n    const action = primaryAction(form);\n    try {\n      triggerAction(form, action);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke submit failed: ${error.message}` : \"QA smoke submit failed.\", \"\");\n      return;\n    }\n    inspectResult(before, 10);\n  }\n\n  window.addEventListener(\"error\", function (event) {\n    const message = event && event.message ? event.message : \"JavaScript runtime error during QA smoke.\";\n    stamp(\"fail\", `QA smoke JS error: ${message}`, \"\");\n  }, { once: true });\n\n  window.addEventListener(\"unhandledrejection\", function (event) {\n    const reason = event && event.reason;\n    const detail = typeof reason === \"string\"\n      ? reason\n      : reason && reason.message\n        ? reason.message\n        : \"Unhandled promise rejection during QA smoke.\";\n    stamp(\"fail\", `QA smoke rejection: ${detail}`, \"\");\n  }, { once: true });\n\n  if (document.readyState === \"loading\") {\n    document.addEventListener(\"DOMContentLoaded\", function () {\n      window.setTimeout(runSmoke, 60);\n    }, { once: true });\n  } else {\n    window.setTimeout(runSmoke, 60);\n  }\n})();\n</script>\n</body>\n</html>",
+    "generation_mode": "direct_html"
+  }
+}
