@@ -1,0 +1,40 @@
+{
+  "name": "Simulateur de Potentiel d'Adoption d'une IA pour PME Françaises",
+  "description": "Évaluez le potentiel d",
+  "theme": "calculator",
+  "design_theme": "liquid-glass",
+  "structure_preset": "story-commerce",
+  "render_direction": "studio-split",
+  "page_blueprint": "campaign-mosaic",
+  "language": "fr",
+  "country": "FR",
+  "url": null,
+  "expected_url": "https://simulateur-de-potentiel-d-adoption-d-une-ia-pou-232d7206.onrender.com",
+  "created": "2026-04-29T01:18:36.301238+00:00",
+  "owner_user_id": "user-1774822953462",
+  "owner_username": "admin",
+  "owner_display_name": "Administrator",
+  "status": "generated",
+  "run_id": "run-1777425040962",
+  "publish_target": "render",
+  "mode": "production",
+  "github": {
+    "status": "pending"
+  },
+  "deployment": {
+    "status": "pending"
+  },
+  "qa": {
+    "status": "pending"
+  },
+  "features": [
+    "Hero pattern: poster",
+    "Proof module: steps",
+    "Design theme: Liquid Glass",
+    "Render direction: Studio Split",
+    "Page blueprint: Campaign Mosaic",
+    "Runtime mode: generic_calculator",
+    "Generation mode: direct_html",
+    "Artifact rendered, awaiting QA and deployment"
+  ]
+}
