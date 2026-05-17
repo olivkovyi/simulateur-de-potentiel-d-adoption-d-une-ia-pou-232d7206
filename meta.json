@@ -1,23 +1,38 @@
 {
+  "slug": "simulateur-de-potentiel-d-adoption-d-une-ia-pou-232d7206",
   "name": "Simulateur de Potentiel d'Adoption d'une IA pour PME Françaises",
   "description": "Évaluez le potentiel d",
   "theme": "calculator",
-  "design_theme": "liquid-glass",
-  "structure_preset": "story-commerce",
-  "render_direction": "studio-split",
-  "page_blueprint": "campaign-mosaic",
+  "design_theme": "imported-source",
+  "structure_preset": "external-source",
+  "render_direction": "imported-source",
+  "page_blueprint": "imported-source",
   "language": "fr",
   "country": "FR",
   "url": null,
   "expected_url": "https://simulateur-de-potentiel-d-adoption-d-une-ia-pou-232d7206.onrender.com",
-  "created": "2026-04-29T01:18:36.301238+00:00",
+  "created": "2026-05-17T14:49:11.434383+00:00",
   "owner_user_id": "user-1774822953462",
   "owner_username": "admin",
   "owner_display_name": "Administrator",
   "status": "generated",
-  "run_id": "run-1777425040962",
+  "run_id": "run-1779029305818",
   "publish_target": "render",
   "mode": "production",
+  "source_type": "imported",
+  "import_source_path": "/var/lib/utility-site-studio/data/growth-republish/growth-1779029225049/simulateur-de-potentiel-d-adoption-d-une-ia-pou-232d7206",
+  "import_root_path": "/var/lib/utility-site-studio/data/growth-republish/growth-1779029225049/simulateur-de-potentiel-d-adoption-d-une-ia-pou-232d7206",
+  "import_resolution_note": null,
+  "analysis": {
+    "model": "preserved-analysis",
+    "summary": "Évaluez le potentiel d",
+    "notes": "Growth module republish of an updated local artifact.",
+    "characteristics": [
+      "imported static site",
+      "ready file deploy",
+      "calculator"
+    ]
+  },
   "github": {
     "status": "pending"
   },
@@ -28,13 +43,246 @@
     "status": "pending"
   },
   "features": [
-    "Hero pattern: poster",
-    "Proof module: steps",
-    "Design theme: Liquid Glass",
-    "Render direction: Studio Split",
-    "Page blueprint: Campaign Mosaic",
-    "Runtime mode: generic_calculator",
-    "Generation mode: direct_html",
-    "Artifact rendered, awaiting QA and deployment"
-  ]
+    "Imported from ready static files",
+    "AI analysis model: preserved-analysis",
+    "imported static site",
+    "ready file deploy",
+    "calculator"
+  ],
+  "growth": {
+    "affiliate": {
+      "status": "ready",
+      "updated_at": "2026-05-17T14:48:04.970850+00:00",
+      "modes": [
+        "plain_url_text"
+      ],
+      "links": 1,
+      "insertions": 1,
+      "review": {
+        "status": "pass",
+        "score": 78,
+        "summary": "The page presents a coherent value proposition for an AI adoption simulator targeting French SMEs. Content is well-structured with clear benefits and a logical flow from problem to solution. However, there are minor concerns around affiliate transparency and some repetitive phrasing that slightly impact the overall quality.",
+        "issues": [
+          "No explicit affiliate disclosure visible in the excerpt—affiliate mode should be clearly labeled to comply with FTC/DGCCRF guidelines",
+          "Slight keyword repetition ('Simulateur de Potentiel d'Adoption d'une IA pour PME Françaises' appears twice in quick succession) could be tightened",
+          "Specific metric claims ('up to 30% productivity increase') lack source attribution, which may weaken credibility",
+          "CTA flow is unclear—the form selector appears abruptly without a clear next-step instruction",
+          "Missing information about what happens after the simulator (e.g., affiliate partner recommendations, pricing tiers) could indicate incomplete UX"
+        ]
+      }
+    }
+  },
+  "ahrefs": {
+    "status": "ready",
+    "synced_at": "2026-05-13T02:56:36.703374+00:00",
+    "country": "FR",
+    "target_url": "https://simulateur-de-potentiel-d-adoption-d-une.onrender.com/",
+    "target_host": "simulateur-de-potentiel-d-adoption-d-une.onrender.com",
+    "current_live_url": "https://simulateur-de-potentiel-d-adoption-d-une.onrender.com",
+    "domain_rating": 89.0,
+    "ahrefs_rank": 1924,
+    "backlinks": 0,
+    "refdomains": 0,
+    "org_traffic": 0,
+    "org_keywords": 0,
+    "org_keywords_1_3": 0,
+    "org_keywords_4_10": 0,
+    "org_keywords_11_20": 0,
+    "org_keywords_21_50": 0,
+    "org_keywords_51_plus": 0,
+    "top_country": null,
+    "top_country_traffic": null,
+    "detail": "Ahrefs metrics synced via Batch Analysis.",
+    "shared_host": true,
+    "metrics_scope": "shared-host",
+    "shared_host_provider": "Render",
+    "shared_host_note": "Сайт живёт на Render shared host (simulateur-de-potentiel-d-adoption-d-une.onrender.com). DR и Ahrefs Rank в таком режиме частично отражают силу хост-домена, поэтому смотри в первую очередь на keywords, ref domains, traffic и top pages.",
+    "opportunity_score": 0,
+    "opportunity_band": "dormant",
+    "opportunity_label": "Dormant",
+    "opportunity_detail": "Ahrefs пока почти не видит самостоятельных SEO-сигналов у этого проекта. · shared-host: DR/AR смотри осторожно."
+  },
+  "previous_live_state": {
+    "url": "https://simulateur-de-potentiel-d-adoption-d-une.onrender.com",
+    "expected_url": "https://simulateur-de-potentiel-d-adoption-d-une.onrender.com",
+    "requested_url": "https://simulateur-de-potentiel-d-adoption-d-une.onrender.com",
+    "github": {
+      "status": "published",
+      "repo_name": "simulateur-de-potentiel-d-adoption-d-une-ia-pou-232d7206",
+      "repo_url": "https://github.com/olivkovyi/simulateur-de-potentiel-d-adoption-d-une-ia-pou-232d7206",
+      "updated_at": 1777425558
+    },
+    "deployment": {
+      "status": "ready",
+      "provider": "render",
+      "service_id": "srv-d7olpu9j2pic73a480mg",
+      "project_name": "simulateur-de-potentiel-d-adoption-d-une-ia-pou-232d7206",
+      "requested_project_name": null,
+      "deployment_id": "dep-d7olpupj2pic73a480v0",
+      "deployment_url": "https://simulateur-de-potentiel-d-adoption-d-une.onrender.com",
+      "public_url": "https://simulateur-de-potentiel-d-adoption-d-une.onrender.com",
+      "expected_public_url": "https://simulateur-de-potentiel-d-adoption-d-une.onrender.com",
+      "dashboard_url": "https://dashboard.render.com/static/srv-d7olpu9j2pic73a480mg",
+      "ready_state": "live",
+      "target": "production",
+      "updated_at": 1777425576,
+      "requested_public_url": "https://simulateur-de-potentiel-d-adoption-d-une.onrender.com",
+      "url_source": "alias"
+    },
+    "qa": {
+      "status": "pass",
+      "local": {
+        "status": "pass",
+        "checks": [
+          {
+            "name": "index_exists",
+            "status": "pass",
+            "detail": "index.html exists"
+          },
+          {
+            "name": "meta_exists",
+            "status": "pass",
+            "detail": "meta.json exists"
+          },
+          {
+            "name": "robots_exists",
+            "status": "pass",
+            "detail": "robots.txt exists"
+          },
+          {
+            "name": "has_title",
+            "status": "pass",
+            "detail": "HTML contains a title tag"
+          },
+          {
+            "name": "has_viewport",
+            "status": "pass",
+            "detail": "HTML contains a mobile viewport meta tag"
+          },
+          {
+            "name": "has_canonical",
+            "status": "pass",
+            "detail": "HTML contains a canonical URL"
+          },
+          {
+            "name": "bundle_size",
+            "status": "pass",
+            "detail": "Generated HTML stays below 250KB"
+          },
+          {
+            "name": "functional_qa_hook",
+            "status": "pass",
+            "detail": "Generated HTML includes the browser QA hook used before deploy."
+          },
+          {
+            "name": "inline_script_syntax",
+            "status": "pass",
+            "detail": "Inline JavaScript syntax check passed."
+          },
+          {
+            "name": "robots_google_only",
+            "status": "pass",
+            "detail": "robots.txt allows only Google crawlers and blocks all other bots."
+          },
+          {
+            "name": "no_meta_noindex",
+            "status": "pass",
+            "detail": "Generated HTML does not inject a noindex robots meta tag."
+          },
+          {
+            "name": "no_internal_branding",
+            "status": "pass",
+            "detail": "Generated site does not leak internal platform branding or internal product naming."
+          },
+          {
+            "name": "desktop_layout_overlap",
+            "status": "pass",
+            "detail": "Editorial desktop layout avoids negative overlap offsets on the tool panel"
+          }
+        ],
+        "checked_at": 1779029285
+      },
+      "functional": {
+        "status": "pass",
+        "detail": "desktop: Le formulaire natif a mis a jour la zone de resultat. | mobile: Le formulaire natif a mis a jour la zone de resultat.",
+        "target_url": "http://127.0.0.1:35963/index.html?__qa=functional",
+        "mode": "native-form",
+        "headline": "Potentiel d'Intégration d'IA pour votre PME :",
+        "primary_url": "",
+        "desktop": {
+          "status": "pass",
+          "detail": "Le formulaire natif a mis a jour la zone de resultat.",
+          "target_url": "http://127.0.0.1:35963/index.html?__qa=functional",
+          "viewport": "desktop",
+          "mode": "native-form",
+          "headline": "Potentiel d'Intégration d'IA pour votre PME :",
+          "primary_url": "",
+          "reported_viewport": "desktop",
+          "updated_at": 1779029286
+        },
+        "mobile": {
+          "status": "pass",
+          "detail": "Le formulaire natif a mis a jour la zone de resultat.",
+          "target_url": "http://127.0.0.1:35963/index.html?__qa=functional",
+          "viewport": "mobile",
+          "mode": "native-form",
+          "headline": "Potentiel d'Intégration d'IA pour votre PME :",
+          "primary_url": "",
+          "reported_viewport": "mobile",
+          "updated_at": 1779029287
+        },
+        "updated_at": 1779029287
+      },
+      "remote": {
+        "status": "pass",
+        "checks": [
+          {
+            "name": "remote_200",
+            "status": "pass",
+            "detail": "Remote deployment returned HTTP 200"
+          },
+          {
+            "name": "remote_title",
+            "status": "pass",
+            "detail": "Remote HTML contains a title tag"
+          },
+          {
+            "name": "remote_body",
+            "status": "pass",
+            "detail": "Remote HTML contains a body tag"
+          }
+        ],
+        "checked_at": 1779029287
+      },
+      "visual": {
+        "status": "pass",
+        "desktop": {
+          "status": "pass",
+          "path": "/var/lib/utility-site-studio/static/generated-qa/simulateur-de-potentiel-d-adoption-d-une-ia-pou-232d7206/simulateur-de-potentiel-d-adoption-d-une-ia-pou-232d7206-desktop.png",
+          "detail": "1440x960 screenshot captured.",
+          "relative_url": "/static/generated-qa/simulateur-de-potentiel-d-adoption-d-une-ia-pou-232d7206/simulateur-de-potentiel-d-adoption-d-une-ia-pou-232d7206-desktop.png"
+        },
+        "mobile": {
+          "status": "pass",
+          "path": "/var/lib/utility-site-studio/static/generated-qa/simulateur-de-potentiel-d-adoption-d-une-ia-pou-232d7206/simulateur-de-potentiel-d-adoption-d-une-ia-pou-232d7206-mobile.png",
+          "detail": "430x932 screenshot captured.",
+          "relative_url": "/static/generated-qa/simulateur-de-potentiel-d-adoption-d-une-ia-pou-232d7206/simulateur-de-potentiel-d-adoption-d-une-ia-pou-232d7206-mobile.png"
+        },
+        "updated_at": 1779029290
+      },
+      "lighthouse": {
+        "status": "pass",
+        "scores": {
+          "performance": 100,
+          "accessibility": 93,
+          "best-practices": 96,
+          "seo": 100
+        },
+        "report_path": "/var/lib/utility-site-studio/data/qa/lighthouse/simulateur-de-potentiel-d-adoption-d-une-ia-pou-232d7206-lighthouse.json",
+        "updated_at": 1779029305
+      },
+      "qa_live_url": "https://simulateur-de-potentiel-d-adoption-d-une.onrender.com",
+      "updated_at": "2026-05-17T14:48:25.575719+00:00"
+    }
+  }
 }
